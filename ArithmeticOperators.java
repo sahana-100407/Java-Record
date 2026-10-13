@@ -1,3 +1,18 @@
+EXP.NO:2A
+DATE:04/08/2026
+                    Arithmetic Operations using Switch Case
+
+Aim:
+To write a Java program to perform arithmetic operations such as addition, subtraction, multiplication, division, and modulus using a switch statement.
+
+Algorithm:
+1. Start the program and create a Scanner object to read input.
+2. Read two numbers from the user.
+3. Display the menu of arithmetic operations and read the user's choice.
+4. Use a switch statement to perform the selected operation and display the result. Check for division by zero.
+5. Repeat the process until the user selects Exit, then stop the program.
+
+Code:    
 import java.util.Scanner;
 
 public class ArithmeticOperators {
@@ -67,3 +82,35 @@ public class ArithmeticOperators {
         }
     }
 }
+
+Output:
+Enter the two numbers to perform operations
+Enter the first number: 20
+Enter the second number: 10
+
+Choose the operation you want to perform:
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+5. MODULUS
+6. EXIT
+1
+Result: 30
+
+Enter the two numbers to perform operations
+Enter the first number: 20
+Enter the second number: 10
+
+Choose the operation you want to perform:
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+5. MODULUS
+6. EXIT
+6
+Exiting...
+
+Result:
+Thus, the Java program to perform arithmetic operations using a switch statement was executed successfully.
