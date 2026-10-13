@@ -1,3 +1,8 @@
+EXP.NO:1C
+DATE:28/07/2026
+    
+                Find largest and smallest number in an array
+
 Aim:
 To write a Java program to find the sum, largest number, and smallest number in an array.
 
