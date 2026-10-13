@@ -1,3 +1,18 @@
+EXP.NO:1D
+DATE:28/07/2026
+            To Print Marks above 60
+
+Aim:
+To write a Java program to read the names and marks of six students and display the students who scored more than 60 marks.
+
+Algorithm:
+1. Start the program and declare arrays to store student names and marks.
+2. Read the names and marks of six students using a loop.
+3. Check each student's marks using an if condition.
+4. If the marks are greater than 60, display the student's name and marks.
+5. Stop the program.
+
+Code:
 import java.util.Scanner;
 
 public class MarksAbvSixty
@@ -30,3 +45,19 @@ public class MarksAbvSixty
         }
     }
 }
+
+Output:
+Enter Name of Student and Marks of Subject 1: Ravi 75
+Enter Name of Student and Marks of Subject 2: Sita 55
+Enter Name of Student and Marks of Subject 3: Ram 80
+Enter Name of Student and Marks of Subject 4: Priya 60
+Enter Name of Student and Marks of Subject 5: Arun 90
+Enter Name of Student and Marks of Subject 6: Devi 45
+
+Students scoring more than 60:
+Ravi : 75
+Ram : 80
+Arun : 90
+
+Result:
+Thus, the Java program to display the names and marks of students who scored more than 60 marks was executed successfully.
