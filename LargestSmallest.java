@@ -1,3 +1,14 @@
+Aim:
+To write a Java program to find the sum, largest number, and smallest number in an array.
+
+Algorithm:
+1. Start the program and initialize the array with elements.
+2. Initialize sum to 0 and min and max with the first array element.
+3. Traverse the array using a for loop.
+4. Find the largest and smallest elements and calculate the sum of all elements.
+5. Display the sum, largest number, and smallest number, then stop.
+
+Code:
 import java.util.Scanner;
 
 public class LargestSmallest
@@ -30,3 +41,11 @@ public class LargestSmallest
         System.out.println("Smallest number in the array is: " + min);
     }
 }
+
+Output:
+The sum is: 357
+Largest number in the array is: 90
+Smallest number in the array is: 9
+
+Result:
+Thus, the Java program to find the sum, largest number, and smallest number in an array was executed successfully.
