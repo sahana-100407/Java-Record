@@ -1,3 +1,19 @@
+EXP.NO:10A
+DATE:15/09/2026
+                    Creating Simple Thread
+
+Aim:
+To write a Java program to demonstrate multithreading using `yield()`, `sleep()` and `start()` methods.
+
+Algorithm:
+1. Start the program and create three thread classes A, B and C.
+2. Override the `run()` method in each thread.
+3. Use `Thread.yield()` to allow other threads to execute.
+4. Use `Thread.sleep(1500)` to pause thread C for 1.5 seconds.
+5. Use the `break` statement to terminate thread B after printing 3.
+6. Create thread objects and start all threads using the `start()` method.
+
+Source Code:
 class A extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -56,3 +72,25 @@ public class Threadtest {
         System.out.println("exit from main thread");
     }
 }
+
+Output:
+Start thread A
+exit from main thread
+from thread A i=1
+from thread A i=2
+from thread A i=3
+from thread A i=4
+from thread A i=5
+exit from A
+from thread B j=1
+from thread B j=2
+from thread B j=3
+exit from B
+thread C = 1
+thread C = 2
+thread C = 3
+thread C = 4
+thread C = 5
+
+Result:
+Thus, the Java program to demonstrate multithreading using `yield()`, `sleep()` and `start()` methods was executed successfully.
